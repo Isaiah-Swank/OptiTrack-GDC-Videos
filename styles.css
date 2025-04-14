@@ -1,0 +1,83 @@
+/* Basic Reset */
+body, h1, p, h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page Background */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Page background is black */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Main Container Styling */
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #ec8a00; /* Main container background */
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 5px solid darkgrey; /* Thicker border around the container */
+    border-radius: 15px;         /* Curved corners for the container */
+  }
+  
+  /* Header Styling */
+  header {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: black; /* Updated h1 text color */
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+  }
+  
+  /* Video Container Styling */
+  .video-wrapper {
+    text-align: center;
+    margin-bottom: 50px;    /* Extra vertical spacing between video containers */
+    border: 4px solid darkgrey; /* Dark grey borders on video containers */
+    padding: 15px;             /* Internal padding for spacing */
+    border-radius: 15px;       /* Curved corners for each video container */
+  }
+  
+  /* Video Element Styling */
+  video {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  /* Download Button Styling */
+  .download-button {
+    background-color: black; /* Button background is black */
+    color: #ec8a00;         /* Button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .download-button:hover {
+    background-color: #333; /* Slight hover effect */
+  }
+  
+  /* Footer Styling */
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
